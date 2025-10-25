@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Jornada de Proyectos</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <header class="site-header">
+<%- include('./menu', { currentPath: currentPath, searchQuery: '' }) %>
+
+
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-banner">
+                <div class="hero-overlay">
+                    <div class="container hero-content">
+                        <h1>Bienvenido a Noticias Jornada de Proyectos</h1>
+                        <p>Aun no se que escribir para presentar lo de las noticias :"v</p>
+                        <div class="hero-ctas">
+                            <a href="#noticias" class="btn btn-primary">Ver noticias</a>
+                            <a href="#publicar" class="btn btn-outline">Publicar ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="noticias" class="container noticias">
+            <h2 class="section-title">Conoce a Nuestros Integrantes</h2>
+            <div id="cards" class="cards-prof-grid">
+                <article class="card prof-card">
+                    <img class="prof-img" src="https://i.pinimg.com/736x/dd/f6/58/ddf65806e41027cd74baacb5a0ac50a8.jpg"
+                        alt="Profesor Juan Pérez">
+                    <h3 class="card-title">No se</h3>
+                </article>
+
+                <article class="card prof-card">
+                    <img class="prof-img" src="https://i.pinimg.com/736x/dd/f6/58/ddf65806e41027cd74baacb5a0ac50a8.jpg"
+                        alt="Profesora María Gómez">
+                    <h3 class="card-title">No se</h3>
+                </article>
+
+                <article class="card prof-card">
+                    <img class="prof-img" src="https://i.pinimg.com/736x/dd/f6/58/ddf65806e41027cd74baacb5a0ac50a8.jpg"
+                        alt="Profesor Carlos Ruiz">
+                    <h3 class="card-title">No se</h3>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <%- include('./footer') %>
+    </footer>
+</body>
+
+</html>

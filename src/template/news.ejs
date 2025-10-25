@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas las Noticias | Jornada de Proyectos</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <%- include('./menu', { currentPath: currentPath, searchQuery: searchQuery }) %>
+
+
+    </header>
+
+    <main>
+        <section id="noticias" class="container noticias">
+            <h2 class="section-title">Todas las Noticias</h2>
+
+            <div id="news-container">
+                <div class="cards-grid">
+                    <% news.forEach(n=> { %>
+                        <article class="card noticia-card">
+                            <img class="noticia-img" src="<%= n.image %>" alt="<%= n.title %>">
+                            <h3 class="card-title">
+                                <%= n.title %>
+                            </h3>
+                            <p class="card-fecha">
+                                <%= n.publishedAt.toLocaleDateString('es-ES', { day: '2-digit' , month: 'short' ,
+                                    year: 'numeric' }) %>
+                            </p>
+
+                            <p class="card-desc">
+                                <%= n.description %>
+                            </p>
+<a href="/news/v1.0/detail/<%= n.id %>" class="btn btn-primary">Leer más</a>
+                        </article>
+                        <% }) %>
+
+                            <% for(let i=news.length; i < 4; i++) { %>
+                                <div class="card noticia-card" style="visibility: hidden;"></div>
+                                <% } %>
+                </div>
+                <div class="pagination">
+                    <% if (currentPage> 1) { %>
+                        <a href="?page=<%= currentPage - 1 %><%= searchQuery ? '&search=' + encodeURIComponent(searchQuery) : '' %>"
+                            class="page-btn">« Anterior</a>
+                        <% } else { %>
+                            <span class="page-btn disabled">« Anterior</span>
+                            <% } %>
+
+                                <% paginationPages.forEach(p=> { %>
+                                    <% if (p==='…' ) { %>
+                                        <span class="dots">…</span>
+                                        <% } else { %>
+                                            <a href="?page=<%= p %><%= searchQuery ? '&search=' + encodeURIComponent(searchQuery) : '' %>"
+                                                class="page-btn <%= p === currentPage ? 'active' : '' %>">
+                                                <%= p %>
+                                            </a>
+                                            <% } %>
+                                                <% }) %>
+
+                                                    <% if (currentPage < totalPages) { %>
+                                                        <a href="?page=<%= currentPage + 1 %><%= searchQuery ? '&search=' + encodeURIComponent(searchQuery) : '' %>"
+                                                            class="page-btn">Siguiente »</a>
+                                                        <% } else { %>
+                                                            <span class="page-btn disabled">Siguiente »</span>
+                                                            <% } %>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <%- include('./footer') %>
+    </footer>
+</body>
+
+</html>

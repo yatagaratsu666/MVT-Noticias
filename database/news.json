@@ -1,0 +1,887 @@
+[
+  {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+     {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  },
+    {
+    "id": 1,
+    "title": "Nueva misión espacial a Marte",
+    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
+    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
+    "image": "/images/marte.jpg",
+    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ana López",
+        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      },
+      {
+        "author": "Carlos Díaz",
+        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Descubrimiento de exoplaneta habitable",
+    "description": "Astrónomos detectan un planeta que podría albergar vida.",
+    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
+    "image": "/images/exoplaneta.jpg",
+    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Luis Martínez",
+        "description": "Es fascinante pensar que podría haber vida allá afuera.",
+        "publishedAt": "2025-09-16T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Avances en inteligencia artificial médica",
+    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
+    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
+    "image": "/images/ia_medica.jpg",
+    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Sofía Reyes",
+        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
+        "publishedAt": "2025-08-11T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Exploración submarina en la Fosa de las Marianas",
+    "description": "Se descubren nuevas especies marinas a gran profundidad.",
+    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
+    "image": "/images/fosa_marianas.jpg",
+    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "María González",
+        "description": "La vida en los océanos profundos es realmente sorprendente.",
+        "publishedAt": "2025-07-06T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Innovación en energías renovables",
+    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
+    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
+    "image": "/images/energia_renovable.jpg",
+    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Pedro Ramírez",
+        "description": "Una gran noticia para el planeta y la sostenibilidad.",
+        "publishedAt": "2025-06-21T00:00:00.000Z"
+      }
+    ]
+  }
+]

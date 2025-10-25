@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= noticia.title %> | Noticias Jornada de Proyectos</title>
+    <link rel="stylesheet" href="/css/news.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <%- include('./menu', { currentPath: currentPath, searchQuery: '' }) %>
+    </header>
+
+    <main>
+        <div class="detalle-container">
+            <section class="detalle-card">
+                <div class="detalle-header">
+                    <img class="detalle-img" src="<%= noticia.image %>" alt="<%= noticia.title %>">
+                    <div class="detalle-meta">
+                        <h1 class="detalle-title"><%= noticia.title %></h1>
+                        <p class="detalle-date">Publicado el <%= noticia.publishedAt.toLocaleDateString() %></p>
+                    </div>
+                </div>
+                <div class="detalle-body">
+                    <p class="detalle-desc"><%= noticia.description %></p>
+                    <div class="detalle-content">
+                        <p><%= noticia.content %></p>
+                    </div>
+                </div>
+
+                <% if (noticia.commentaries && noticia.commentaries.length > 0) { %>
+                    <div class="detalle-comentarios">
+                        <h2 class="comentarios-title">Comentarios</h2>
+                        <% noticia.commentaries.forEach(c => { %>
+                            <div class="comentario-card">
+                                <p class="comentario-text"><%= c.description %></p>
+                                <div class="comentario-meta">
+                                    <span class="comentario-author"><%= c.author %></span>
+                                    <span class="comentario-date"><%= new Date(c.publishedAt).toLocaleDateString() %></span>
+                                </div>
+                            </div>
+                        <% }) %>
+                    </div>
+                <% } %>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <%- include('./footer') %>
+    </footer>
+</body>
+</html>
