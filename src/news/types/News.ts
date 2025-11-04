@@ -1,7 +1,7 @@
 export interface Commentary {
   description: string;
   author: string;
-  publishedAt: Date;
+  publishedAt: string | Date;
 }
 
 export default interface News {
@@ -10,6 +10,6 @@ export default interface News {
   title: string;
   description: string;
   content: string;
-  publishedAt: Date;
+  publishedAt: string | Date;
   commentaries: Commentary[];
 }

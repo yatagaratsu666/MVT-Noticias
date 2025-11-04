@@ -1,886 +1,692 @@
 [
   {
     "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "title": "THE NEXUS BATTLE - Viszla",
+    "description": "Grupo de proyecto integrador 2, encargados del módulo de usuarios",
+    "content": "El grupo Vizsla se encargó del módulo de usuarios para el juego NEXUS BATTLE IV, pero durante su presentación no lograron explicar de ninguna forma el proceso de desarrollo y se limitaron a ofrecer justificaciones y excusas del porqué el proyecto no se llevó a cabo, sin dar explicaciones del desarrollo en especifico. El servidor de correos presentó fallos, y únicamente pudieron mostrar las funcionalidades de registro y autenticación de usuarios, a lo largo del proyecto se evidenciaron dificultades en la comunicación interna del equipo y, durante dos sprints consecutivos, no lograron cumplir con los objetivos comprometidos debido a problemas en cuanto a la coordinación y la situación de discapacidad de uno de sus integrantes.",
+    "image": "/img/vizla.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "Segun lo que he visto en las diapositivas, no hay producto",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       },
       {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Claudia",
+        "description": "Yo no veo un producto, lo que se dedicaron en la presentación fue a dar excusas",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       },
      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
+        "author": "Sandra",
+        "description": "Con todo lo que habían dicho esperaba poco producto, pero solo presentaron el inicio de sesión, lo que es muy básico",
+        "publishedAt": "2025-07-28T00:00:00.000Z"
       }
     ]
   },
   {
     "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "title": "THE NEXUS BATTLE - Eldar",
+    "description": "Grupo de proyecto integrador 2, encargados del módulo de inventario",
+    "content": "El grupo Eldar se encargó del módulo de inventario del juego, su explicación durante la presentacion de su producto fue buena ya que mostraron evidencias de avances, metodología, conceptos, y fundamentos que le añadieron peso a su producto, se presentó un buen marco conceptual, metodologia y resultado, pero presentarón falencias en cuanto a los diagramas utilizados.",
+    "image": "/img/eldar.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Los extends en los diagramas de casos de uso estan mal, deben ir al reves",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Danith",
+        "description": "Hizo falta más profundidad en el CI/CD del proyecto, ya que no se muestra en la presentación",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "title": "THE NEXUS BATTLE - Kryze",
+    "description": "Grupo de proyecto integrador 2, encargados del módulo de juego",
+    "content": "El grupo Kryze fue el responsable del desarrollo del juego y durante su presentación expusieron con claridad el marco conceptual, la metodología y los resultados de su proyecto, destacándose especialmente por la implementación de una variable pseudoaleatoria en la dinámica del juego. Su trabajo fue reconocido y felicitado por los docentes debido a la solidez técnica y el buen manejo de los conceptos aplicados.",
+    "image": "/img/kryze.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Muy buen trabajo, felicitaciones al equipo",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Danith",
+        "description": "Se denota el conocimiento que se tiene sobre el tema, felicidades",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "title": "THE NEXUS BATTLE - Rook",
+    "description": "Grupo de proyecto integrador 2, encargados del módulo de subastas.",
+    "content": "El grupo Rook fue el encargado del módulo de subastas, realizando una presentación clara en donde explicaron el funcionamiento de su producto de subastas, pero en algunos momentos, especialmente al exponer los resultados, se notó falta de seguridad en ciertos integrantes, lo que restó algo de fuerza a su exposición general.",
+    "image": "/img/rook.png",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
+        "author": "Danith",
+        "description": "Hubo mucha deuda tecnica en los resultados de los sprints",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       }
     ]
   },
   {
     "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "title": "THE NEXUS BATTLE - Wren",
+    "description": "Grupo de proyecto integrador 2, encargados del módulo de IA.",
+    "content": "El grupo Wren se encargó del módulo de inteligencia artificial para las batallas, su exposición del producto fue decente en términos generales, sin embargo, se vio afectada por diversos inconvenientes ya que, durante su intervención, algunas explicaciones resultaron poco claras lo que resulto en dudas y dificultó la comprensión total del funcionamiento de su propuesta.",
+    "image": "/img/wren.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "Se menciona mucho la palabra IA, pero no quedaba claro como la usaron",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Lenin Serrano",
+        "description": "Soy consciente del trabajo que hicieron, pero no hubo valor en la presentación",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Proyecto Integrador 2 - Arryn",
+    "description": "Grupo de proyecto integrador 2, encargados del sistema de comparación de productos con IA.",
+    "content": "El grupo Arryn presentó un sistema basado en web scraping que permite buscar un mismo producto en múltiples sitios web y comparar sus precios, calificaciones y valoraciones. Además, integraron un algoritmo de inteligencia artificial capaz de ofrecer recomendaciones personalizadas según las preferencias del usuario. La propuesta fue innovadora y mostró un enfoque práctico hacia la automatización de búsquedas y la toma de decisiones de compra en línea.",
+    "image": "/img/arryn.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Lenin Serrano",
+        "description": "No tienen marco conceptual por lo que no se entiende nada de lo que usaron",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Proyecto Integrador 2 - Baratheon",
+    "description": "Grupo de proyecto integrador 2, presentó su proyecto QueHayPaHacer",
+    "content": "El grupo Baratheon presentó su proyecto QueHayPaHacer, el cual es una plataforma que organiza y centraliza informacion sobre eventos culturales en colombia, que generalmente se encuentra dispersa en multiples fuentes",
+    "image": "/img/baratheon.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Francisco Molina",
+        "description": "Hizo falta explicación de algunos conceptos...",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Lenin Serrano",
+        "description": "Los requerimientos funcionales y no funcionales del proyecto estaban mal planteados",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Proyecto Integrador 2 - Lannister",
+    "description": "Grupo de proyecto integrador 2, presentó un sistema de noticias",
+    "content": "El grupo Lannister presentó su plataforma web inteligente de noticias de forma que se mostraran en tiempo real mediante el uso de web scrapping, recolectando noticias en tiempo real desde multiples sitios web y plataformas digitales, también implementaron un chatbot con mBERT para responder cualquier pregunta referente a las noticias",
+    "image": "/img/lannister.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Lenin Serrano",
+        "description": "No entendí como definieron lo que era una noticia...",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Briceño",
+        "description": "No entendí a que se referían con plataforma web inteligente",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Proyecto Integrador 2 - Stark",
+    "description": "Grupo de proyecto integrador 2, presentó un sistema de tradeos y noticias",
+    "content": "El grupo Stark presentó su sistema de noticias y tradeos el cual utilizó web scrapping/crawling para la recolección y muestra de noticias sobre la temática de trading o tradeos, además de que este sistema implementó chatbot para la resolución de dudas sobre trading",
+    "image": "/img/stark.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Briceño",
+        "description": "Me gustó la presentación y como implementaron el chatbot",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      },
+      {
+        "author": "Lenin Serrano",
+        "description": "Felicidades, muy buena explicación del marco conceptual",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Proyecto Integrador 2 - Targeryen",
+    "description": "Grupo de proyecto integrador 2, presentó un sistema de aprendizaje con IA",
+    "content": "El grupo Targeryen presentó su sistema el cual utilizaba web scrapping con inteligencia artificial con el fin de poder hacer una búsqueda y así establecer una ruta de aprendizaje con contenido educativo de cualquier tipo de temática que se estableciera, además de ofrecer diferentes cursos disponibles en la web sobre dicha temática que se planteara",
+    "image": "/img/targeryen.jpg",
+    "publishedAt": "2025-10-28T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Lenin Serrano",
+        "description": "Faltaron referencias en el tema de \"los colores ayudaron al aprendizaje\"",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
+    "id": 11,
+    "title": "Proyecto Integrador 2 - Tyrell",
+    "description": "Grupo de proyecto integrador 2, presentó un sistema de promociones",
+    "content": "El equipo tyrell presentó un sistema con chatbot para que, cuando se preguntara sobre algun producto este lo buscara en la web, de forma q mostrara su información, promociones y demás con relación a dicho producto buscado, sin embargo, solo buscaba desde alkosto",
+    "image": "/img/tyrell.jpg",
     "publishedAt": "2025-10-24T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Las diapositivas utilizadas en la presentación parecen hechas a última hora",
+        "publishedAt": "2025-10-28T00:00:00.000Z"
       },
       {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
+        "author": "Lenin Serrano",
+        "description": "Dicen conceptos de los que no tienen conimiento, dan muchas cosas por hecho, pero desconocen del tema... Además el diagrama de arquitectura no estaba bien hecho",
         "publishedAt": "2025-10-24T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "id": 12,
+    "title": "Estructura de Datos - Equipo 1",
+    "description": "El equipo 1 de estructura de datos presentó su proyecto de sistema de gestión de trenes.",
+    "content": "El equipo 1 presentó su sistema de gestión de trenes, utilizaron como herramientas Figma, Draw.io y de Java para el desarrollo de su producto. El uso adecuado de las estructuras de datos fue clave para entregar un proyecto bien estructurado, aunque sin una muestra funcional de su desempeño.",
+    "image": "/img/equipo1.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "No hay producto, además, estaban leyendo durante la presentación.",
+        "publishedAt": "2025-20-29T00:00:00.000Z"
+      },
+      {
+        "author": "Francisco Molina",
+        "description": "Solo estaban leyendo y colocaron objetivos dentro del marco conceptual",
+        "publishedAt": "2025-20-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "id": 13,
+    "title": "Estructura de Datos - Equipo 2",
+    "description": "El equipo 2 de estructura de datos presentó su proyecto de sistema de gestión de trenes.",
+    "content": "El equipo 2 presentó su sistema de gestión de trenes, los objetivos de su proyecto fueron expuestos de forma inadecuada y con algunos errores comunes, además se propuso una solución basada en la automatización, aunque no se especificó la metodología utilizada. El dominio del proyecto fue presentado correctamente y su conexión funciona mediante un servidor HTTP con gestión de elementos incluida. Aunque la presentación careció de organización, logró mostrar la información esencial. Además, se implementó encriptación para evitar el uso de archivos planos y el equipo finalizó justo a tiempo.",
+    "image": "/img/equipo2.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
+        "author": "Danith",
+        "description": "Tuvieron una muy mala actitud para exponer",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      },
+      {
+        "author": "Francisco Molina",
+        "description": "Se denota quienes trabajaron y quienes no",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "id": 14,
+    "title": "Estructura de Datos - Equipo 3",
+    "description": "Sin información adicional proporcionada. (No presentaron)",
+    "content": "Sin contenido proporcionado. (No presentaron)",
+    "image": "/img/notfound.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": []
+  },
+  {
+    "id": 15,
+    "title": "Estructura de Datos - Equipo 4",
+    "description": "El equipo 4 de estructura de datos presentó su proyecto de sistema de gestión de trenes.",
+    "content": "El equipo 4 presentó su proyecto sobre la gestión de trenes de transporte de pasajeros con una presentación bien elaborada, si bien omitieron incluir las conclusiones en sus diapositivas, lograron abordarlas de forma espontánea al cierre de la exposición, además de que resaltó su organización interna mediante la metodología Kanban y la correcta exposición de la justificación del proyecto.",
+    "image": "/img/equipo4.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": " Los felicito, se ve un trabajo bien realizado, se notaba que no lo hicieron con gpt",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "id": 16,
+    "title": "Estructura de Datos - Equipo 5",
+    "description": "Sin información adicional proporcionada. (No presentaron)",
+    "content": "Sin contenido proporcionado. (No presentaron)",
+    "image": "/img/notfound.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": []
+  },
+  {
+    "id": 17,
+    "title": "Ingeniería de Software - Urban Shoes",
+    "description": "Urban Shoes presentó un sistema de inventario de zapatos",
+    "content": "El grupo Urban Shoes presentó su sistema de inventario de calzado, el cual permite controlar el stock, actualizar datos y registrar las ventas realizadas, también implementaron la metodología de prototipado y ofrecieron una exposición aceptable.",
+    "image": "/img/urbanShoes.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Sandra",
+        "description": "Hicieron caso a las correcciones que les habian hecho, felicidades",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      },
+      {
+        "author": "Lenin Serrano",
+        "description": "Buena presentación, algunos diagramas podrían mejorar, no se expresó bien el MVC y usaron el diagrama que no era para presentar un flujo",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Ingeniería de Software - Rana Shoes",
+    "description": "Rana Shoes presentó un sistema de gestión del proceso de fabricación de zapatos",
+    "content": "El grupo Rana Shoes presentó su sistema orientado a la gestión del proceso de fabricación de calzado, con el objetivo de automatizar y organizar la producción, sin embargo, la presentación no fue del todo buena, ya que el diagrama de clases carecía de coherencia y los requerimientos no ofrecían información clara ni específica.",
+    "image": "/img/ranaShoes.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Lenin Serrano",
+        "description": "Esos requerimientos no eran especificos, aun así los diagramas de flujo y secuencia estaban bien",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Ingeniería de Software - Veterinaria SOS",
+    "description": "Veterinaria SOS presentó un sistema de gestión de agendamiento de veterinaria",
+    "content": "El grupo Veterianria SOS presentó un sistema para la gestión de inventarios, ventas, clientes, proveedores e insumos de una veterinaria y spa, implementaron los patrones Singleton y Factory para manejar la generación de informes, y aunque no incluyeron un marco conceptual, explicaron bien el marco tecnológico.",
+    "image": "/img/veterinariaSOS.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Briceño",
+        "description": "Buen trabajo, felicidades",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      },
+      {
+        "author": "Lenin Serrano",
+        "description": "Muy buen marco conceptual, buen trabajo",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Ingeniería de Software - Avitech",
+    "description": "Avitech presentó un sistema de gestión de galpones",
+    "content": "El grupo Avitech presentó un sistema que sirve para medir el tamaño de los huevos producidos en los galpones de una finca, sin embargo, la exposición fue deficiente, y los docentes señalaron la falta total de dominio del tema. El grupo aplicó los principios SOLID, junto con los patrones de diseño Observer y Factory, y estructuró su proyecto bajo una arquitectura MVC",
+    "image": "/img/avitech.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Francisco Molina",
+        "description": "No se tenía ningun diagrama UML, ni se consideró que se utilizó MySQL para la base de datos",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "id": 21,
+    "title": "Proyecto Integrador 1 - Centro de Desarrollo de Software (Byfrost Systems)",
+    "description": "El grupo Byfrost Systems presentó un sistema que centraliza la gestion de procesos",
+    "content": "El equipo ByFrost presentó un sistema de gestión de procesos orientado a fomentar la integración entre los centros del parque tecnológico utilizando el marco SCRUM, sin embargo, la exposición fue poco clara, impidiendo comprender el propósito real del sistema y mostrando un marco conceptual confuso.",
+    "image": "/img/byfrost.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "Los diagramas no se lograron leer en lo más mínimo",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       },
       {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Ali",
+        "description": "El objetivo general era muy abierto, además de que las conclusiones no decian nada",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "id": 22,
+    "title": "Proyecto Integrador 1 - Centro de Biotecnología (Bioconecta s.a.s)",
+    "description": "El grupo Bioconecta s.a.s presentó un sistema de gestión de proyectos",
+    "content": "El grupo Bioconecta s.a.s presentó un sistema para la gestión de proyectos tecnológicos, que incluía funciones básicas de agregar, editar y eliminar tareas y usuarios, sin embargo, la exposición fue poco clara, ya que no se logró comprender el propósito del sistema, aunque mencionaron la metodología utilizada, no la explicaron durante la sustentación, además, presentaron una estimación excesiva de puntos comprometidos (que fueron más de 1000), evidenciando una mala planificación.",
+    "image": "/img/bioconecta.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "Los diagramas no eran UML",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      },
+      {
+        "author": "Danith",
+        "description": "Tenían errores de ortografía, no tenian objetivos sino actividades sueltas",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
+    "id": 23,
+    "title": "Proyecto Integrador 1 - Centro de Energías Renovables (Ecophos)",
+    "description": "El grupo Ecophos presentó un sistema de energia renovable",
+    "content": "El grupo Ecophos presentó un sistema destinado a la gestión de energías renovables, diseñado para actuar como un gestor de recursos energéticos proporcionados por terceros, pero la explicación durante la exposición fue confusa, lo que llevó a interpretar erróneamente que el proyecto pretendía implementar directamente fuentes de energía renovable.",
+    "image": "/img/ecophos.jpg",
     "publishedAt": "2025-08-10T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "No se entiende donde esta la gestión de las energias renovables",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
+      },
+            {
+        "author": "Briceño",
+        "description": "Se tendrían que revisar los puntos de historia, ya que mostraban que tenian 1400 puntos",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "id": 24,
+    "title": "Proyecto Integrador 1 - Centro de Agroindustria Inteligente (Agrotechnova)",
+    "description": "El grupo Agrotechnova presentó sistema de gestión de proyectos agrícolas",
+    "content": "El grupo Agrotechnova presentó un sistema diseñado para administrar proyectos, ofreciendo acceso a herramientas tecnológicas, orientación y monitoreo constante, el sistema debía incluir módulos de gestión de recursos enfocados en los campesinos y aportar al entorno agronómico del país, pero durante la exposición se enfocaron demasiado en el marco teórico, evidenciando poca preparación en este aspecto.",
+    "image": "/img/agrotechnova.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "No se evidenció valor porque lo tenían en localhost",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
+    "id": 25,
+    "title": "Proyecto Integrador 1 - Centro de Robótica y Automatización (J&C automation & robotics)",
+    "description": "El grupo J&C automation & robotics presentó sistema de gestión de proyectos de automatizacion y robotica",
+    "content": "El grupo J&C automation & robotics presentó un sistema orientado a gestionar proyectos, brindando acceso a herramientas tecnológicas, orientación y monitoreo constante, el sistema incluía módulos de gestión de recursos para campesinos, buscando impactar positivamente en el entorno agronómico del país, durante la exposición, se dedicaron demasiado tiempo al marco teórico, mostrando poca preparación en ese aspecto, y aunque mostraron los diagramas correspondientes, no ofrecieron explicaciones detalladas de los mismos.",
+    "image": "/img/J&C.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Briceño",
+        "description": "¿Cómo tienen un certificado SSL en Localhost?",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "id": 26,
+    "title": "Proyecto Integrador 1 - Centro de Ciberseguridad (CyberIntegrity)",
+    "description": "El grupo CyberIntegrity presentó un sistema de gestión de ciberseguridad",
+    "content": "El grupo CyberIntegrity presentó un sistema de gestión de ciberseguridad diseñado para integrarse con otros grupos, este comenzó su trabajo desde cero con un retraso de un sprint y medio y durante la exposición cometieron errores al mostrar el story mapping, presentando información incorrecta, y el marco teórico también estuvo mal desarrollado.",
+    "image": "/img/cyberIntegrity.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Danith",
+        "description": "Se presentó un prototipo funciona y no una aplicación, ya que no estaba desplegado",
+        "publishedAt": "2025-10-29T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "id": 27,
+    "title": "Proyecto Integrador 1 - Centro de Soluciones Smart Cities (SmartCities)",
+    "description": "No se presento información adicional. (No presentaron)",
+    "content": "No se proporcionó contenido. (No presentaron)",
+    "image": "/img/notfound.jpg",
+    "publishedAt": "2025-10-29T00:00:00.000Z",
+    "commentaries": []
+  },
+  {
+    "id": 28,
+    "title": "ImgK",
+    "description": "Identificador de calorias por imágenes",
+    "content": "La estudiante presentó un sistema para la identificación de calorías, basado en el escaneo de imágenes y el reconocimiento de patrones.",
+    "image": "/img/imgk.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
+    "commentaries": []
+  },
+  {
+    "id": 29,
+    "title": "Eco UPB",
+    "description": "El grupo ECO UPB presentó una aplicación de reciclaje",
+    "content": "El grupo Eco UPB presentó su aplicación para fomentar el reciclaje entre los estudiantes, esta funciona asignando puntos a quienes participen activamente en actividades de reciclaje los cuales pueden ser utilizados posteriormente para beneficios académicos, incentivando así tanto la conciencia ambiental como el desempeño estudiantil.",
+    "image": "/img/ecoupb.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Javier Lizarazo",
+        "description": "Muy buen trabajo, se podría mejorar la narrativa pero en general estuvo bien",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
+    "id": 30,
+    "title": "UPB Study +",
+    "description": "El grupo UPB Study + presentó red social académica",
+    "content": "El grupo UPB Study+ presentó su red social dirigida a estudiantes y la comunidad educativa, centrada en apoyar el estudio y el aprendizaje colaborativo, se destacó positivamente el proyecto, especialmente por incluir un marco conceptual sólido, comparando su presentación favorablemente con proyectos de semestres anteriores.",
+    "image": "/img/upbStudy.jpg",
     "publishedAt": "2025-06-20T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Francisco Molina",
+        "description": "Muchas felicidades por su proyecto",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
+      },
+            {
+        "author": "Javier Lizarazo",
+        "description": "Felicitaciones, hicieron un buen trabajo",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "id": 31,
+    "title": "Pet Finder",
+    "description": "El grupo Pet Finder presentó un rastreador de mascotas",
+    "content": "El grupo PetFinder presentó su aplicación móvil, que combina reconocimiento de imágenes y geolocalización, utilizando inteligencia artificial para identificar y localizar mascotas perdidas.",
+    "image": "/img/petFinder.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Sandra",
+        "description": "Vendan bien su producto, no digan que es una aplicacioncita",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "UPB Señas",
+    "description": "El grupo UPB Señas presentó un traductor lenguaje de señas",
+    "content": "El grupo UPB SEÑAS presentó un traductor de lenguaje de señas que emplea inteligencia artificial y tecnología de reconocimiento de imágenes para detectar los gestos realizados y transformarlos en el alfabeto convencional",
+    "image": "/img/upbSeñas.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Danith",
+        "description": "Me gusta de donde sacaron su idea e inspiración",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       },
       {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Javier Lizarazo",
+        "description": "Felicidades por su trabajo, se ve que le han metido ganas",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "id": 33,
+    "title": "ElectroMed",
+    "description": "Aplicación móvil para el monitoreo de los electrolitos en pacientes hospitalarios",
+    "content": "El grupo ElectroMed presentó un sistema diseñado para que el personal médico pueda registrar datos, monitorear niveles de electrolitos, recibir alertas ante desequilibrios y mantener una bitácora clínica completa del paciente.",
+    "image": "/img/electroMed.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Uno de los objetivos no se cumplió",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "id": 34,
+    "title": "BlessHealth24/7",
+    "description": "Aplicación móvil multiplataforma diseñada para gestionar citas médicas",
+    "content": "El grupo BlessHealth24/7 presentó un sistema médico que, a partir de los síntomas del paciente y mediante el uso de inteligencia artificial, genera recomendaciones de tratamientos a seguir.",
+    "image": "/img/blesshealth.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "El marco conceptual no tiene referencias... Para todo el trabajo realizado, 3 conclusiones son muy pocas",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "id": 35,
+    "title": "TONGI",
+    "description": "Translation Optimized Naturally Guided IA",
+    "content": "El grupo TONGI presentó una herramienta de traducción diseñada para diferentes dispositivos móviles, que incluye traducción en tiempo real, traducción y edición de voz e imágenes, y además cuenta con funcionalidades que permiten su uso sin conexión a internet.",
+    "image": "/img/tongi.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Ali",
+        "description": "Esta bueno el proyecto, pero se manejó mal el tiempo",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "id": 36,
+    "title": "PicLab",
+    "description": "Sistemas distrubuidos - Procesamiento de imágenes",
+    "content": "El grupo presentó un sistema distribuido para el procesamiento de imágenes utilizando SOAP, diseñado para balancear la carga entre múltiples nodos de cómputo y reducir los tiempos de respuesta",
+    "image": "/img/piclab.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
+        "author": "Lenin Serrano",
+        "description": "Hicieron faltan referencias, aun así hizo un buen trabajo",
         "publishedAt": "2025-10-24T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Histofy",
+    "description": "Aplicación móvil que utiliza inteligencia artificial y procesamiento de lenguaje natural",
+    "content": "El grupo Histofy presentó un sistema para la gestión de historias clínicas en establecimientos hospitalarios, sin embargo, la exposición fue deficiente, mostrando problemas en la gestión del tiempo, la presentación de diagramas y las referencias utilizadas.",
+    "image": "/img/histofy.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
+    "commentaries": [
+      {
+        "author": "Ali",
+        "description": "Esta bueno el proyecto, pero se manejó mal el tiempo",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       },
       {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Contaron historias y no mostraron nada, no parece un proyecto integrador 3",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
+    "id": 38,
+    "title": "MeditranslateAI",
+    "description": "Aplicación móvil de uso médico",
+    "content": "El equipo MeditranslateAI presentó una aplicación móvil que ayuda a los usuarios a comprender y gestionar su información médica utilizando inteligencia artificial y procesamiento de lenguaje natural para unificar y traducir datos complejos de las historias clínicas para su interpretación y manejo.",
+    "image": "/img/meditranslate.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "No tengo nada que preguntar porque no hay nada",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
+    "id": 39,
+    "title": "PixPar",
+    "description": "Sistemas distrubuidos - Procesamiento de imagenes",
+    "content": "El grupo PixPar presentó un sistema distribuido para el procesamiento de imágenes utilizando SOAP, que incluye una aplicación web para el registro, almacenamiento y transformación de imágenes, integrando así todas las funcionalidades en una plataforma unificada.",
+    "image": "/img/pixpar.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
+        "author": "Ali",
+        "description": "Pasaron muy rápido los resultados del producto",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
   {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
+    "id": 40,
+    "title": "DistriFile",
+    "description": "Sistemas distrubuidos - Procesamiento de imagenes",
+    "content": "El grupo DistriFile (conformado por una estudiante) presentó un sistema de almacenamiento distribuido que permite guardar y recuperar archivos mediante fragmentación y redundancia en múltiples nodos independientes, todos coordinados por un servidor de aplicación.",
+    "image": "/img/distrifile.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
+        "author": "Lenin Serrano",
+        "description": "Muy bien trabajo, muy bien la exposicion, muy bien todo",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
+      },
       {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Claudia",
+        "description": "La felicito porque hizo el trabajo muy bien y además sola",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   },
     {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
+    "id": 41,
+    "title": "BlessImage",
+    "description": "Sistemas distrubuidos - Sistema de edicion de imagenes",
+    "content": "El grupo BlessImage presentó un sistema para el procesamiento y edición de imágenes, tanto de manera individual como por lotes, que permite modificar grandes cantidades de imágenes y almacenarlas junto con sus métricas",
+    "image": "/img/blessimage.jpg",
+    "publishedAt": "2025-10-30T00:00:00.000Z",
     "commentaries": [
       {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
-      }
-    ]
-  },
-    {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
-      }
-    ]
-  },
-    {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
-      }
-    ]
-  },
-    {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
-      }
-    ]
-  },
-    {
-    "id": 1,
-    "title": "Nueva misión espacial a Marte",
-    "description": "La NASA confirma el lanzamiento de una misión para analizar agua congelada.",
-    "content": "La NASA ha anunciado oficialmente su próxima misión a Marte para investigar la presencia de agua congelada. El lanzamiento está previsto para 2026 y se espera que proporcione datos clave para futuras misiones tripuladas.",
-    "image": "/images/marte.jpg",
-    "publishedAt": "2025-10-24T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Ana López",
-        "description": "Me encanta ver cómo la ciencia avanza, ojalá pronto podamos enviar humanos.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      },
-      {
-        "author": "Carlos Díaz",
-        "description": "Ya era hora de que se investigara más a fondo Marte. Esta misión se ve prometedora.",
-        "publishedAt": "2025-10-24T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Descubrimiento de exoplaneta habitable",
-    "description": "Astrónomos detectan un planeta que podría albergar vida.",
-    "content": "Un equipo internacional de científicos ha identificado un exoplaneta en la zona habitable de su estrella. Este descubrimiento abre nuevas posibilidades para la búsqueda de vida extraterrestre.",
-    "image": "/images/exoplaneta.jpg",
-    "publishedAt": "2025-09-15T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Luis Martínez",
-        "description": "Es fascinante pensar que podría haber vida allá afuera.",
-        "publishedAt": "2025-09-16T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Avances en inteligencia artificial médica",
-    "description": "Nuevas IA pueden diagnosticar enfermedades con alta precisión.",
-    "content": "Investigadores desarrollan algoritmos que analizan imágenes médicas para detectar enfermedades tempranas, reduciendo errores humanos y mejorando los tratamientos.",
-    "image": "/images/ia_medica.jpg",
-    "publishedAt": "2025-08-10T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Sofía Reyes",
-        "description": "La tecnología está revolucionando la medicina, ¡impresionante!",
-        "publishedAt": "2025-08-11T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Exploración submarina en la Fosa de las Marianas",
-    "description": "Se descubren nuevas especies marinas a gran profundidad.",
-    "content": "Científicos exploran la Fosa de las Marianas y documentan especies nunca antes vistas. Este hallazgo amplía nuestro conocimiento sobre la biodiversidad oceánica.",
-    "image": "/images/fosa_marianas.jpg",
-    "publishedAt": "2025-07-05T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "María González",
-        "description": "La vida en los océanos profundos es realmente sorprendente.",
-        "publishedAt": "2025-07-06T00:00:00.000Z"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Innovación en energías renovables",
-    "description": "Nueva tecnología solar aumenta eficiencia de paneles fotovoltaicos.",
-    "content": "Ingenieros desarrollan paneles solares que capturan más energía incluso en días nublados, lo que promete un avance significativo en energías limpias.",
-    "image": "/images/energia_renovable.jpg",
-    "publishedAt": "2025-06-20T00:00:00.000Z",
-    "commentaries": [
-      {
-        "author": "Pedro Ramírez",
-        "description": "Una gran noticia para el planeta y la sostenibilidad.",
-        "publishedAt": "2025-06-21T00:00:00.000Z"
+        "author": "Lenin Serrano",
+        "description": "Deberían contar el algoritmo que crearon, porque ese es el core del negocio",
+        "publishedAt": "2025-10-30T00:00:00.000Z"
       }
     ]
   }

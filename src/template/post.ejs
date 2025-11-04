@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Noticia | Noticias Jornada de Proyectos</title>
+    <link rel="stylesheet" href="/css/post.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <%- include('./menu', { currentPath: currentPath || '/v1.0/create', searchQuery: '' }) %>
+    </header>
+
+    <main>
+        <section id="publicar" class="news-create-section">
+    <style>
+    </style>
+            <div class="news-create-container">
+                <h1 class="news-create-title">Publicar una Nueva Noticia</h1>
+                <p class="news-create-subtitle">Completa los campos para crear una noticia y simular su publicación.</p>
+
+                <% if (error) { %>
+                    <div class="news-create-error"><%= error %></div>
+                <% } %>
+
+                <form class="news-create-form" action="post" method="POST">
+                    <div class="news-create-field">
+                        <label for="title">Título</label>
+                        <input type="text" id="title" name="title" placeholder="Escribe el título de la noticia" required>
+                    </div>
+
+                    <div class="news-create-field">
+                        <label for="description">Descripción breve</label>
+                        <textarea id="description" name="description" rows="2" placeholder="Agrega una descripción corta" required></textarea>
+                    </div>
+
+                    <div class="news-create-field">
+                        <label for="content">Contenido completo</label>
+                        <textarea id="content" name="content" rows="5" placeholder="Escribe el contenido de la noticia" required></textarea>
+                    </div>
+
+                    <div class="news-create-field">
+                        <label for="image">URL de la imagen</label>
+                        <input type="url" id="image" name="image" placeholder="https://ejemplo.com/imagen.jpg" required>
+                    </div>
+
+                    <div id="comment-section">
+                         <h2>Comentarios</h2>
+                        <div class="news-comment-field">
+                            <label>Autor del comentario</label>
+                            <input type="text" name="commentAuthor" placeholder="Nombre del autor">
+                            <label>Comentario</label>
+                            <textarea name="commentDescription" rows="2" placeholder="Escribe el comentario..."></textarea>
+                        </div>
+                    </div>
+
+                    <button type="button" class="btn-add-comment" onclick="addComment()">+ Agregar otro comentario</button>
+
+                    <div class="news-create-actions">
+                        <button type="submit" class="btn-news-create">Publicar Noticia</button>
+                        <a href="/v1.0/list" class="btn-news-cancel">Cancelar</a>
+                    </div>
+                </form>
+            </div>
+
+            <% if (createdNews) { %>
+                <section class="news-created-preview">
+                    <h2>📰 Noticia publicada (simulada)</h2>
+                    <article class="news-created-card">
+                        <img src="<%= createdNews.image %>" alt="Imagen de la noticia">
+                        <div class="news-created-content">
+                            <h3><%= createdNews.title %></h3>
+                            <p class="news-created-date">Publicado el <%= createdNews.publishedAt.toISOString().split('T')[0] %></p>
+                            <p><%= createdNews.description %></p>
+                            <p><%= createdNews.content %></p>
+
+                            <% if (createdNews.commentaries.length > 0) { %>
+                                <h4>💬 Comentarios:</h4>
+                                <ul>
+                                    <% createdNews.commentaries.forEach(c => { %>
+                                        <li><strong><%= c.author %>:</strong> <%= c.description %> (<%= c.publishedAt.toISOString().split('T')[0] %>)</li>
+                                    <% }) %>
+                                </ul>
+                            <% } %>
+                        </div>
+                    </article>
+                </section>
+            <% } %>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <%- include('./footer') %>
+    </footer>
+
+    <script>
+        function addComment() {
+            const container = document.getElementById('comment-section');
+            const newComment = document.createElement('div');
+            newComment.classList.add('news-comment-field');
+            newComment.innerHTML = `
+                <label>Autor del comentario</label>
+                <input type="text" name="commentAuthor" placeholder="Nombre del autor">
+                <label>Comentario</label>
+                <textarea name="commentDescription" rows="2" placeholder="Escribe el comentario..."></textarea>
+            `;
+            container.appendChild(newComment);
+        }
+    </script>
+</body>
+</html>

@@ -59,8 +59,6 @@ export default class NewsModel {
 
     if (currentPage <= Math.ceil(maxVisible / 2)) {
       end = Math.min(maxVisible, totalPages);
-    } else if (currentPage + Math.floor(maxVisible / 2) > totalPages) {
-      start = Math.max(totalPages - maxVisible + 1, 1);
     }
 
     for (let i = start; i <= end; i++) {

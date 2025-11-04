@@ -3,7 +3,7 @@
     <nav class="main-nav" aria-label="Main navigation">
         <a class="nav-link <%= currentPath === '/v1.0/home' ? 'active' : '' %>" href="/v1.0/home">Home</a>
         <a class="nav-link <%= currentPath.startsWith('/news/v1.0/list') ? 'active' : '' %>" href="/news/v1.0/list">Noticias</a>
-        <a class="nav-link <%= currentPath === '/add' ? 'active' : '' %>" href="/add">Publicar</a>
+        <a class="nav-link <%= currentPath.startsWith('/news/v1.0/post') ? 'active' : '' %>" href="/news/v1.0/post">Publicar</a>
     </nav>
 
     <div class="search-wrap">

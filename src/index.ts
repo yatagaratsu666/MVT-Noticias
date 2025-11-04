@@ -7,6 +7,9 @@ import NewsModel from './news/model/NewsModel'
 import NewsView from './news/view/NewsView'
 import DetailRouter from './detail/router/DetailRouter'
 import DetailView from './detail/view/DetailView'
+import PostRouter from './post/router/PostRouter'
+import PostView from './post/view/PostView'
+import PostModel from './post/model/PostModel'
 
 export default class Server {
   private readonly app: Application
@@ -14,7 +17,8 @@ export default class Server {
   constructor(
     private readonly homeRouter: HomeRouter,
     private readonly newsRouter: NewsRouter,
-    private readonly detailRouter: DetailRouter
+    private readonly detailRouter: DetailRouter,
+    private readonly postView: PostRouter
   ) {
     this.app = express()
     this.configure()
@@ -31,7 +35,7 @@ export default class Server {
 
   private readonly routes = (): void => {
     this.app.use('/', this.homeRouter.router)
-    this.app.use('/news', this.newsRouter.router, this.detailRouter.router)
+    this.app.use('/news', this.newsRouter.router, this.detailRouter.router, this.postView.router)
     // this.app.use('/{*any}', )
   }
 
@@ -46,8 +50,12 @@ export default class Server {
       console.log(`Server is running on http://${host}:${port}`)
     })
   }
+
+  getApp(): Application {
+    return this.app;
+  }
 }
 
 const server = new Server(
-  new HomeRouter(new HomeView()), new NewsRouter(new NewsView(new NewsModel)), new DetailRouter(new DetailView(new NewsModel)))
+  new HomeRouter(new HomeView()), new NewsRouter(new NewsView(new NewsModel)), new DetailRouter(new DetailView(new NewsModel)), new PostRouter(new PostView(new PostModel)))
 server.start()

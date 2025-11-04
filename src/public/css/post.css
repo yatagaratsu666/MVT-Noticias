@@ -1,0 +1,211 @@
+    .news-create-section {
+        background: var(--card-bg);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 32px 24px;
+        margin-top: 32px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 32px;
+    }
+
+    .news-create-container {
+        margin-bottom: 32px;
+    }
+
+    .news-create-title {
+        font-size: 2rem;
+        color: var(--accent);
+        margin-bottom: 8px;
+    }
+
+    .news-create-subtitle {
+        color: var(--muted-text);
+        margin-bottom: 18px;
+    }
+
+    .news-create-error {
+        background: #ffeaea;
+        color: #c00;
+        border-radius: 8px;
+        padding: 10px 14px;
+        margin-bottom: 18px;
+        font-weight: bold;
+    }
+
+    .news-create-form {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .news-create-field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .news-create-field label {
+        font-weight: 600;
+        color: var(--accent);
+        margin-bottom: 2px;
+    }
+
+    .news-create-field input,
+    .news-create-field textarea {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid #d7e6f4;
+        background: #fff;
+        font-size: 1rem;
+        color: var(--text);
+    }
+
+    .news-create-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+    }
+
+    .btn-news-create {
+        background: var(--accent);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background .15s;
+    }
+
+    .btn-news-create:hover {
+        background: var(--accent-2);
+    }
+
+    .btn-news-cancel {
+        background: transparent;
+        color: var(--accent);
+        border: 2px solid rgba(27, 108, 168, 0.12);
+        border-radius: 8px;
+        padding: 10px 18px;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background .15s, color .15s;
+    }
+
+    .btn-news-cancel:hover {
+        background: var(--muted);
+        color: var(--accent-2);
+    }
+
+    .news-created-preview {
+        margin-top: 32px;
+        background: var(--muted);
+        border-radius: 10px;
+        padding: 18px 16px;
+        box-shadow: 0 2px 8px rgba(17, 24, 39, 0.04);
+    }
+
+    .news-created-card {
+        display: flex;
+        gap: 18px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(17, 24, 39, 0.04);
+        padding: 14px 16px;
+        align-items: flex-start;
+    }
+
+    .news-created-card img {
+        width: 160px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(17, 24, 39, 0.08);
+    }
+
+    .news-created-content h3 {
+        margin: 0 0 6px;
+        color: var(--accent);
+        font-size: 1.15rem;
+    }
+
+    .news-created-date {
+        color: var(--muted-text);
+        font-size: 0.95rem;
+        margin-bottom: 8px;
+    }
+
+    #comment-section h2 {
+        color: var(--accent);
+    }
+
+    .news-comment-field {
+        background: #f7fbff;
+        border-radius: 8px;
+        box-shadow: 0 1px 4px rgba(17, 24, 39, 0.04);
+        padding: 14px 16px;
+        margin-bottom: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .news-comment-field label {
+        font-weight: bold;
+        color: var(--accent);
+        margin-bottom: 2px;
+    }
+
+    .news-comment-field input,
+    .news-comment-field textarea {
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: 1px solid #d7e6f4;
+        background: #fff;
+        font-size: 1rem;
+        color: var(--text);
+    }
+
+    .btn-add-comment {
+        background: var(--accent-2);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 16px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-bottom: 18px;
+        transition: background .15s;
+    }
+
+    .btn-add-comment:hover {
+        background: var(--accent);
+    }
+
+    .news-created-content h4 {
+        margin-top: 18px;
+        color: var(--accent);
+        font-size: 1.1rem;
+    }
+
+    .news-created-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .news-created-content li {
+        background: #f7fbff;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        padding: 10px 12px;
+        color: var(--text);
+        box-shadow: 0 1px 4px rgba(17, 24, 39, 0.04);
+    }
+
+    .news-created-content li strong {
+        color: var(--accent);
+        font-weight: bold;
+    }
