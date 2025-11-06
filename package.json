@@ -20,7 +20,9 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.29.0"
   },
   "devDependencies": {
     "@types/ejs": "^3.1.5",

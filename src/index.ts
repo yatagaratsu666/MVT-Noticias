@@ -12,7 +12,7 @@ import PostView from './post/view/PostView'
 import PostModel from './post/model/PostModel'
 
 export default class Server {
-  private readonly app: Application
+  public readonly app: Application
 
   constructor(
     private readonly homeRouter: HomeRouter,
@@ -50,12 +50,10 @@ export default class Server {
       console.log(`Server is running on http://${host}:${port}`)
     })
   }
-
-  getApp(): Application {
-    return this.app;
-  }
 }
 
 const server = new Server(
   new HomeRouter(new HomeView()), new NewsRouter(new NewsView(new NewsModel)), new DetailRouter(new DetailView(new NewsModel)), new PostRouter(new PostView(new PostModel)))
 server.start()
+
+export const app = server.app

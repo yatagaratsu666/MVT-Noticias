@@ -12,7 +12,7 @@ export default class HomeRouter{
     }
 
     readonly routes = () => {
-        this.router.get('/v1.0/home', this.homeView.getProductList)
+        this.router.get('/', this.homeView.getProductList)
     }
 
 }
