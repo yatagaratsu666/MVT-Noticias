@@ -54,6 +54,10 @@ export default class Server {
 
 const server = new Server(
   new HomeRouter(new HomeView()), new NewsRouter(new NewsView(new NewsModel)), new DetailRouter(new DetailView(new NewsModel)), new PostRouter(new PostView(new PostModel)))
-server.start()
+
+// Para las pruebas, xq sino fallan con el test:e2e debido a q se repite el mismo puerto
+if (require.main === module) {
+  server.start()
+}
 
 export const app = server.app
