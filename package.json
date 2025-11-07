@@ -9,10 +9,7 @@
     "test": "jest --verbose",
     "test-c": "jest --coverage --runInBand",
     "test-v": "jest --verbose --runInBand --detectOpenHandles",
-    "test-d": "jest --testNamePattern='describe' --verbose",
-    "test-f": "jest --testPathPatterns='Environment.test.ts' --verbose",
-    "test:e2e": "jest test/e2e --runInBand --detectOpenHandles --forceExit",
-    "e2e": "npx vitest run --dir tests/e2e"
+    "test:e2e": "jest test/e2e --runInBand --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "",

@@ -18,7 +18,7 @@ export default class Server {
     private readonly homeRouter: HomeRouter,
     private readonly newsRouter: NewsRouter,
     private readonly detailRouter: DetailRouter,
-    private readonly postView: PostRouter
+    private readonly postRouter: PostRouter
   ) {
     this.app = express()
     this.configure()
@@ -35,8 +35,12 @@ export default class Server {
 
   private readonly routes = (): void => {
     this.app.use('/', this.homeRouter.router)
-    this.app.use('/news', this.newsRouter.router, this.detailRouter.router, this.postView.router)
-    // this.app.use('/{*any}', )
+    this.app.use(
+      '/news',
+      this.newsRouter.router,
+      this.detailRouter.router,
+      this.postRouter.router
+    )
   }
 
   private readonly static = (): void => {
@@ -52,12 +56,19 @@ export default class Server {
   }
 }
 
+// ✅ No instancies ni llames a server.start() aquí directamente
 const server = new Server(
-  new HomeRouter(new HomeView()), new NewsRouter(new NewsView(new NewsModel)), new DetailRouter(new DetailView(new NewsModel)), new PostRouter(new PostView(new PostModel)))
+  new HomeRouter(new HomeView()),
+  new NewsRouter(new NewsView(new NewsModel())),
+  new DetailRouter(new DetailView(new NewsModel())),
+  new PostRouter(new PostView(new PostModel()))
+)
 
-// Para las pruebas, xq sino fallan con el test:e2e debido a q se repite el mismo puerto
-if (require.main === module) {
+export const app = server.app
+
+/* istanbul ignore next: los testeos no ejecutan el npm run dev directamente, por lo q no recubre por completo el if */
+if (process.env['NODE_ENV'] !== 'test' && require.main === module) {
   server.start()
 }
 
-export const app = server.app
+
