@@ -4,8 +4,8 @@ import PostModel from "../model/PostModel";
 export default class PostView {
   constructor(private readonly createModel: PostModel) {}
 
-  readonly showForm = (_req: Request, res: Response) => {
-    res.render("post", { createdNews: null, error: null, currentPath: "/post" });
+  readonly showForm = (req: Request, res: Response) => {
+    res.render("post", { createdNews: null, error: null, currentPath: req.originalUrl });
   };
 
   readonly postNews = (req: Request, res: Response) => {
